@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #1F2937;
+}
+
+body{
+    background-image:url("/images/number.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin:0px;
+}
+
+nav{
+    display:block;
+}
+
+.navigation{
+    width:700px;
+    background-color:var(--primary-color);
+    color: white;
+    padding:0.5rem 0.5rem;
+    margin: auto;
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
+}
+
+#inputArea {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    margin: 0.25rem;
+}
+
+#outputArea {
+    background-color: var(--primary-color);
+    color:white;
+    text-align: center;
+    margin: 0.25rem;
+}
+
+#btnConvert{
+    background-color:var(--primary-color);
+    color: white;
+}
+
+footer{
+    display: block;
+}
+
+.foot {
+    width: 700px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin: auto;
+}
