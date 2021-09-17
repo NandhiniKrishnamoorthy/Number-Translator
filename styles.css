@@ -17,7 +17,7 @@ nav{
 }
 
 .navigation{
-    width:700px;
+    width:900px;
     background-color:var(--primary-color);
     color: white;
     padding:1.5rem;
@@ -30,6 +30,10 @@ nav{
     margin:auto;
     padding: 1rem;
     max-width:600px;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
 }
 
 #inputArea {
@@ -39,6 +43,8 @@ nav{
     text-align: center;    
     min-height:15vh;
     width: 100%;
+    margin-top:2rem;
+    margin-bottom:1rem;
 }
 
 #outputArea {
@@ -49,6 +55,8 @@ nav{
     min-height:15vh;
     width: 100%;
     overflow:scroll;
+    margin-bottom:2rem;
+    margin-top:0.25rem;
 }
 
 #btnConvert {
@@ -65,6 +73,8 @@ nav{
     color: white;
     font-size:large;
     font-weight:bold;
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 
 footer{
