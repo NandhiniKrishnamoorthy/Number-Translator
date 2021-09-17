@@ -16,53 +16,47 @@ nav{
     display:block;
 }
 
-.navigation {
-    width: 900px;
-    background-color: var(--primary-color);
+.navigation{
+    width:900px;
+    background-color:var(--primary-color);
     color: white;
+    padding:1.5rem;
     text-align: center;
-    font-size: x-large;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
+    margin: auto;
+    font-size:x-large;
 }
 
-.container {
-    text-align: center;
-    padding: 0.25rem;
-    margin-bottom: 0rem;
+.container{
+    margin:auto;
+    padding: 1rem;
+    max-width:600px;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
 }
 
 #inputArea {
-    display: block;
+    display:block;
     background-color: var(--primary-color);
     color: white;
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-    width: 40%;
-    min-height: 15vh;
-    font-size: xx-large;
-    font-family: 'Kalam', cursive;
+    text-align: center;    
+    min-height:15vh;
+    width: 100%;
+    margin-top:1.5rem;
+    margin-bottom:1rem;
 }
 
 #outputArea {
-    display: block;
-    margin-top: 0.2rem;
-    margin-bottom: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.2rem;
-    width: 40%;
-    min-height: 15vh;
-    overflow: scroll;
-    font-size: xx-large;
-    font-family: 'Kalam', cursive;
+    background-color: var(--primary-color);
+    color:white;
+    text-align: center;    
+    display:block;
+    min-height:15vh;
+    width: 100%;
+    overflow:scroll;
+    margin-bottom:2rem;
+    margin-top:0.25rem;
 }
 
 #btnConvert {
@@ -75,7 +69,6 @@ nav{
     text-align:center;
     margin-top:1rem;
     margin-bottom:0.5rem;
-    cursor: pointer;
 }
 
 #outputText{
@@ -98,16 +91,12 @@ footer{
     bottom:0;
 }
 
-.foot {    
+.foot {
+    width: 900px;
     background-color: var(--primary-color);
     color: white;
+    padding: 1.25rem;
+    margin: auto;
     font-size:x-large;
-    display: block;
-    padding: 0.75rem;
     text-align: center;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.5rem;
-    bottom: 0;
 }
