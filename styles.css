@@ -7,8 +7,7 @@
 body {
     background-image: url("/images/number.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
+    background-size: cover;    
     font-family: 'Kalam', cursive;
 }
 
