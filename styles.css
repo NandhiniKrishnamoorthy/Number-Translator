@@ -80,6 +80,11 @@ nav{
     color: white;
 }
 
+#errorMessage{
+    color: white;
+    font-weight: bold;
+}
+
 footer{
     display: block;
     bottom:0;
