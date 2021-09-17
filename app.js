@@ -3,9 +3,8 @@ var inputValue = document.querySelector("#inputArea");
 var outputValue = document.querySelector("#outputArea");
 var errorMsg = document.querySelector("#errorMessage");
 
-var serverUrl = "https://api.funtranslations.com/translate/numbers.json";
-
-function constructUrl(text){
+function constructUrl(text) {
+    var serverUrl = "https://api.funtranslations.com/translate/numbers.json";
     var url = serverUrl + "?" + "text=" + text;
     return url;
 }
@@ -17,7 +16,7 @@ function errorHandler(event) {
 
 buttonConvert.addEventListener("click", function numberConvertion() {
     fetch(constructUrl(inputValue.value))
-        .then(reponse => response.json)
+        .then(response => response.json)
         .then(json => {
             outputValue.innnerText = json.contents.translated;
         })
