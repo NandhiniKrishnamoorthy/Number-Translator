@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 :root {
     --primary-color: #1F2937;
 }
 
-body{
-    background-image:url("/images/number.jpeg");
-    background-repeat:no-repeat;
+body {
+    background-image: url("/images/number.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
-    margin:0px;
+    margin: 0px;
+    font-family: 'Kalam', cursive;
 }
 
 nav{
@@ -24,44 +27,53 @@ nav{
 }
 
 .container{
-    margin-left: 3rem;
-    margin-right:3rem;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin:auto;
     padding: 1rem;
+    max-width:600px;
 }
 
 #inputArea {
     display:block;
     background-color: var(--primary-color);
     color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right:auto;
+    text-align: center;    
     min-height:15vh;
-    width: 40%;
+    width: 100%;
 }
 
 #outputArea {
     background-color: var(--primary-color);
     color:white;
-    text-align: center;
-    margin: 0.25rem;
+    text-align: center;    
+    display:block;
     min-height:15vh;
-    width: 40%;
+    width: 100%;
+    overflow:scroll;
 }
 
-#btnConvert{
-    background-color:var(--primary-color);
+#btnConvert {
+    background-color: var(--primary-color);
     color: white;    
+    display: block;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    font-weight:bold;
+    text-align:center;
+}
+
+#outputText{
+    color: white;
+    font-size:large;
+    font-weight:bold;
 }
 
 footer{
     display: block;
+    bottom:0;
 }
 
 .foot {
-    width: 700px;
+    width: 900px;
     background-color: var(--primary-color);
     color: white;
     padding: 1.5rem;
