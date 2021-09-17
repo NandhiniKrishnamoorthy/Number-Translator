@@ -15,7 +15,7 @@ function errorHandler(event) {
 }
 
 buttonConvert.addEventListener("click", function numberConvertion() {
-    fetch(getUrl(inputValue.value))
+    fetch(constr(inputValue.value))
         .then(reponse => response.json)
         .then(json => {
             outputValue.innnerText = json.contents.translated;
