@@ -5,11 +5,12 @@
 }
 
 body {
-    background-image: url("/images/number.jpeg");
+    /*background-image: url("/images/number.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     margin: 0px;
     font-family: 'Kalam', cursive;
+    background-color: #374151;
 }
 
 nav{
